@@ -1,8 +1,8 @@
+import 'package:first_app/first_screen.dart';
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(Bolbol());
-}
+void main() => runApp(Bolbol());
+
 class Bolbol extends StatelessWidget{
 @override
   Widget build(BuildContext context) {
@@ -17,14 +17,10 @@ class Bolbol extends StatelessWidget{
           ),
           backgroundColor: Colors.white,
         ),
-        body: Material(
-            color: Colors.blueAccent,
-            child: Center(
-                child: Text(
-              "This is the beginning",
-              textDirection: TextDirection.ltr,
-              style: TextStyle(color: Colors.white, fontSize: 40.0),
-            )))),
+        body: FirstScreen()
+            ),
   );
   }
+
+
 }
