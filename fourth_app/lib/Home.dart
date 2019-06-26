@@ -14,6 +14,7 @@ class Home extends StatelessWidget {
                 color: Colors.cyanAccent,
                 child: Column(
                   children: <Widget>[
+                    Row(children:<Widget>[
                     Expanded(child: Text(
                       "Doo doo",
                       textDirection: TextDirection.ltr,
@@ -31,9 +32,18 @@ class Home extends StatelessWidget {
                           color: Colors.black),
                     ),
                     ),
-                    Expanded(child: FlightImageAssert())
-                    ],
-                )));
+                    
+                    
+                    ]
+                    ),
+                    Row(children:<Widget>[
+                    Expanded(child: FlightImageAssert())]
+
+                )
+                ]
+                )
+                )
+                );
   }
 }
 
