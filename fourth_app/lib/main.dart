@@ -37,7 +37,7 @@ class _SIFormState extends State<SIForm> {
         title: Text("Calculator"),
         centerTitle: true,
       ),
-      body: Container(
+      body: Form(
           child: ListView(
         children: <Widget>[
           Container(
